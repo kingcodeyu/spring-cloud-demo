@@ -1,0 +1,16 @@
+security:
+  basic:
+    enabled: true   #HTTP基础认证
+  user:
+    name: andros  #配置用户名
+    password: andros520    #密码
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: localhost    #eureka实例名
+  client:
+    registerWithEureka: false  #自己不向eureka注册
+    fetchRegistry: false  #自己不向eureka提取注册列表
+    serviceUrl:    
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/  #注册路径

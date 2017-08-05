@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>bet.so</groupId>
+	<artifactId>spring-cloud-microservice-demo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<modules>
+		<module>microservice-eureka-server</module>
+		<module>microservice-eureka-server-authenticating</module>
+		<module>microservice-enreka-server-ha</module>
+		<module>microservice-consumer-moive-ribbon</module>
+		<module>microservice-consumer-moive-ribbon-customizing</module>
+		<module>microservice-provider-user</module>
+		<module>microservice-consumer-moive-ribbon-properties</module>
+	</modules>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
+	</properties>
+</project>
