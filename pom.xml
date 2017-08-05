@@ -11,8 +11,10 @@
 		<module>microservice-enreka-server-ha</module>
 		<module>microservice-consumer-moive-ribbon</module>
 		<module>microservice-consumer-moive-ribbon-customizing</module>
-		<module>microservice-provider-user</module>
 		<module>microservice-consumer-moive-ribbon-properties</module>
+		<module>microservice-provider-user</module>
+		<module>microservice-consumer-moive-feign</module>
+		<module>microservice-consumer-moive-feign-customizing</module>
 	</modules>
 
 	<properties>
